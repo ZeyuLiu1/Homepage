@@ -1,0 +1,26 @@
+header{
+    width: 1000px;
+    height: 380px;
+    background:url("曾哥背景.jpg") no-repeat;
+    margin:0 auto;
+    border: 1px;
+    border-color: transparent;
+}
+a{
+    color: azure;
+    font-size: 50px;
+    vertical-align: middle;
+}
+div{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px;
+    border-color: transparent;
+}
+img{
+    width:800px;
+    margin: 0 auto;
+}
+body{
+    background: black;
+}
