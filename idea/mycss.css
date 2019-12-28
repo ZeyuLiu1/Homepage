@@ -1,0 +1,113 @@
+body{
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-image: url("联盟.png");
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#box{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    width: 380px;
+}
+
+input{
+    width: 260px;
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    float: left;
+    background-image: url(images/search.jpg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:5px center;
+    padding:0 0 0 40px;
+}
+
+#search{
+    width: 78px;
+    height: 32px;
+    float: right;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#photo{
+    overflow: hidden;
+    width: 640px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
+
+#pic{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-iteration-count:infinite ;
+    animation-timing-function:linear ;
+    animation-duration: 20s;
+    animation-direction: alternate;
+}
+
+.c1{
+    animation-name: roll1;
+}
+.c2{
+    animation-name: roll2;
+}
+.c3{
+    animation-name: roll3;
+}
+
+@keyframes roll1 {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 200%;
+    }
+}
+@keyframes roll2 {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+        top: 0px;
+    }
+}
+@keyframes roll3 {
+    0% {
+        left: -200%;
+        top: 0px;
+    }
+    100% {
+        left: 0%;
+        top: 0px;
+    }
+}
+
+#bot{
+    position: absolute;
+    top: 500px;
+    left: 15px;
+}
+
+.tom{
+    width: 80px;
+}
